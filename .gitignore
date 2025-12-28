@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependências (O mais importante!)
+node_modules
+.pnp
+.pnp.js
+
+# Build (A pasta que o 'npm run build' gera)
+dist
+dist-ssr
+*.local
+
+# Editor de Texto / IDE (Configurações locais suas)
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs
+*.njsproj
+*.sln
+*.sw?
+
+# Variáveis de Ambiente (SEGURANÇA: nunca suba senhas)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testes
+coverage
+
+# Cache do Vite (Opcional, mas bom ter)
+node_modules/.vite
