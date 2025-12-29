@@ -56,7 +56,7 @@ const Header = () => {
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
                 className={`font-medium transition-colors hover:text-emerald-600 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
+                  isScrolled ? 'text-gray-700' : 'text-[#9D9067]'
                 }`}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
